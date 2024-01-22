@@ -1,0 +1,298 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+//ABOUT PAGE
+body {
+    background-image: url('https://previews.123rf.com/images/bowlingman/bowlingman1510/bowlingman151000092/46734453-old-camera-in-retro-vintage-background-design.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70vh; /* Ensure the page takes at least the full viewport height */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 100%;
+
+}
+
+nav .logo{
+  align-items:center;
+
+}
+
+nav .nav-links {
+    list-style: none;
+    margin-left:75%;
+    margin-top:-2%;
+}
+
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    width:100%;
+    margin:0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 0;
+    width: 100%;
+    text-align: center;
+    bottom:0;
+    position:fixed;
+}
+
+
+
+//HOME PAGE
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.image {
+    background: url('https://previews.123rf.com/images/bowlingman/bowlingman1510/bowlingman151000092/46734453-old-camera-in-retro-vintage-background-design.jpg');
+    width: 280px;
+    height: 300px;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-home {
+    background-color: #555;
+    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+main {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.body-container {
+    display:flex;
+    flex-direction:row;
+    background-color: #eee;
+    padding: 20px;
+    flex-wrap:wrap;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom:0;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: row;
+    }
+    main, aside {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container for blog posts */
+#blog-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Style each individual blog post */
+.blog-post {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    height:350px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Style the blog post image */
+.blog-image img {
+    max-width: 100%;
+    height: 200px;
+}
+
+/* Style the blog post title */
+.blog-text h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+/* Style the blog post content */
+.blog-content p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Style the "Read More" link */
+.read-more {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+}
+.contact{
+justify-content:center;
+text-align: center;
+font-size: 20px;
+margin: 0 auto;
+max-width: 800px;
+height: 400px;
+box-shadow: 10px 10px 10px 10px;
+background-color:white;
+width:30%;
+}
+.h1 heading{
+padding:50px;
+}
+/* ADD-BLOG PAGE */
+
+.add{
+background-color:white;
+justify-content:center;
+text-align: center;
+font-size: 20px;
+margin: 0 auto;
+max-width: 800px;
+height: 400px;
+box-shadow: 10px 10px 10px 10px;
+background-color:white;
+width:30%;
+}
+.add form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding :10px;
+}
+.add form{
+}
+.row {
+    display: flex;  /* Make the row a flex container */
+    justify-content: space-between; /* Distribute items evenly along the row */
+    margin-bottom: 20px; /* Add some space between rows (adjust as needed) */
+}
+h1{
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+

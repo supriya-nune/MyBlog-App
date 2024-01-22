@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Add a Blog</title>
+  <link th:href="@{/blogger.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Add a Blog</h1>
+<div class="add">
+<form th:action="@{/app/api/add-blogs}" method="post" th:object="${blog}">
+  <label for="blogTitle">Title:</label>
+  <input type="text" id="blogTitle" name="title" th:field="*{title}" required><br><br>
+
+  <label for="blogTitle">Content:</label>
+  <input type="text" id="blogContent" name="content" th:field="*{content}" required><br><br>
+
+<!--  <label for="blogContent">Content Url:</label><br>-->
+<!--  <textarea id="blogContent" name="image_url" rows="6" cols="40" th:field="*{image_url}" required></textarea><br><br>-->
+
+  <label for="blogTags">ImageUrl:</label>
+  <input type="text" id="blogTags" name="url" th:field="*{url}"><br><br>
+
+  <input type="submit" id="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

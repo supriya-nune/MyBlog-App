@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page - Simple Blog Website</title>
+    <link th:href="@{/blogger.css}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/static/blogger.css" type="text/css">
+
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">
+            <h1>My Blogging Application</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a th:href="@{/app/api/view-blogs}">View Blogs</a></li>
+
+            <li><a href="/app/api/add-contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Welcome to Our Blogging Community</h2>
+    <p>Explore, Share, and Connect with Other Bloggers</p>
+    <a th:href="@{/app/api/view-blogs}" class="btn">Get Started</a>
+</section>
+
+
+</body>
+<footer>
+    <p>&copy; 2023 Simple Blog Website</p>
+</footer>
+</html>
